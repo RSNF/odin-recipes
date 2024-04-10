@@ -1,0 +1,111 @@
+@font-face {
+    font-family: "Cat Comic";
+    src: url("../assets/fonts/Cat Comic.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #c75b5b;
+    font-family: "Cat Comic";
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    border: 8px solid #c75b5b;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1, h2, h3 {
+    margin: 0px;
+}
+
+p {
+    margin: 0px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+a {
+    text-decoration-style: wavy;
+    font-size: 24px;
+    color: #c75b5b;
+    line-height: 30px;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    background-color: #efcea8;
+    flex: 1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-right: 2px dashed #c75b5b;
+}
+
+.recipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 0px;
+    gap: 30px;
+    overflow: auto;
+}
+
+.recipe::-webkit-scrollbar {
+    background-color: #efcea8;
+}
+
+.recipe::-webkit-scrollbar-thumb {
+    background-color: #c75b5b;
+}
+
+.recipe * {
+    padding: 0px;
+    width: 75%;
+}
+
+.recipe img {
+    border: 3px solid #c75b5b;
+}
+
+.recipe ul, .recipe ol {
+    line-height: 20px;
+    list-style-position: inside;
+}
+
+.recipe ul {
+    list-style-type: disc;
+}
+
+.recipe ol {
+    list-style-type: decimal;
+}
+
+.recipe ol li + li {
+    margin: 10px 0px;
+}
