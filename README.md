@@ -6,4 +6,4 @@ Font asset by [Khurasan](https://www.creativefabrica.com/designer/khurasan/ref/5
 
 Made by me.
 
-![Image of the thing already complete](./assets/images/image.png)
+![Image of the thing already complete](docs/assets/images/image.png)
