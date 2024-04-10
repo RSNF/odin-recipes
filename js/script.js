@@ -3,7 +3,7 @@ const recipeSection = document.querySelector(".recipe");
 
 async function getContentFromPage(page) {
 
-    let url = `../pages/${page}.html`;
+    let url = `odin-recipes/pages/${page}.html`;
 
     let file = await fetch(url)
     .then((res) => res.text())
